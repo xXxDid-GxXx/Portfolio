@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtg=devicewidth, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Art/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <title>Hdid | Cases</title>
+        <style>
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+                object-fit:fill;
+                border-radius: 10px;
+                transition: 0.3s;
+            }
+            body{
+            overflow-x: hidden;
+            }
+            .col-con{
+                padding-top: 100px;
+            }
+        </style>
+        <script>
+            function scrollToSection() {
+            const section = document.getElementById("section");
+            section.scrollIntoView({ behavior: "smooth" });
+            }
+        </script>
+    </head>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Hdid <b>.</b></a></div>
+            <ul class="navitems">
+                <li><a href="Cases.html">cases</a></li>
+                <li><a href="#contac" onclick="scrollToSection()">contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/hlib-didkovskyi-007518258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div id="section" class="main">
+            <div class="title">
+                <h2>Cases</h2>
+            </div>
+            <div class="cases">
+                <div class="case" id="0">
+                    <a href="Vida.html"><label for=""><h2>Vida Dynamics</h2>Software for constraction organizations.</label></a>
+                    <img src="Art/ViDelta/MAIN.jpg" alt="">
+                </div>
+                <div class="case" id="1">
+                    <a href="Bold.html"><label for=""><h2>Bold</h2>Achieve your goals with strong & smart mind</label></a>
+                    <img src="Art/Bold/bold-hero.jpg" alt="">
+                </div>
+                <div class="case" id="2">
+                    <a href="velonto.html"><label for=""><h2>Velonto</h2>Your favorite food delivered in an environmentally friendly way</label></a>
+                    <img src="Art/Velo/MAIN.jpg" alt="">
+                </div>
+                <div class="case" id="4">
+                    <a href="UpShift.html"><label for=""><h2>Upshift</h2>Peace of mind, without owning a car.</label></a>
+                    <img src="Art/Upshift/MAIN.png" alt="">
+                </div>
+                <div class="case" id="5">
+                    <a href="OpenInvest.html"><label for=""><h2>OpenInvest</h2>Sustainable investing is only the beginning</label></a>
+                    <img src="Art/OpenInvest/portfolios.png" alt="">
+                </div>
+                <div class="case" id="3">
+                    <a href="PlayH.html"><label for=""><h2>Player's Health</h2>Protecting the wellbeing of young athletes</label></a>
+                    <img src="Art/PlayH/Site Folder/Main.png" alt="">
+                </div>
+                <div class="case" id="3">
+                    <a href="qtalent.html"><label for=""><h2>QTalent</h2>Find Your Dream Job In The Food And Beverage Manufacturing Industry</label></a>
+                    <img src="Art/QTalent/Main.png" alt="">
+                </div>
+                <div class="case" id="3">
+                    <a href="EasyTune.html"><label for=""><h2>EasyTune</h2>Tuning for a few seconds can change your entire playing life.</label></a>
+                    <img src="Art/EasyTune/MAIN.png" alt="">
+                </div>
+            </div>     
+        <form action="https://formsubmit.co/hdidkovskyi@gmail.com" method="post">
+
+            <div class="col-con">
+                <h2>Let's Collaborate</h2>
+                <div class="info">
+                    <div class="name">
+                        <p for="name">First Name*</p>
+                        <input type="text" name="name" required="required">
+                    </div>
+                    <div class="surname">
+                        <p for="name">Second Name*</p>
+                        <input type="text" name="surname" required="required">
+                    </div>
+                    <div class="email">
+                        <p for="name">Email*</p>
+                        <input type="email" name="email" required="required">
+                    </div>
+                </div>
+                <div id="contac" class="leave">
+                    <p for="leave message">Leave me a massage*</p>
+                    <textarea type="text" name="massage" required="required"></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </body>
+
+
+    <footer>
+        <div class="foot">
+
+        </div>
+    </footer>
+</html>

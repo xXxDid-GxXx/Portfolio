@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtg=devicewidth, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Art/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <title>Hdid | Portfolio</title>
+        <style>
+          body{
+          overflow-x: hidden;
+          background-color: #f3f5f8;
+          }
+        </style>
+    </head>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Hdid <b>.</b></a></div>
+            <ul class="navitems">
+                <li><a href="Cases.html">cases</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/hlib-didkovskyi-007518258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+<body>
+    
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1 class="type">I'm<span class="multitext"></span></h1>
+                <p></p>
+                <div class="btns">
+                    <a target="_blank" href="Files/Hlib Didkovskyi Resume.pdf"><button>download CV</button></a>
+                    <a href="Cases.html"><button>view cases</button></a>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="Art/Gradient.png" alt="" id="splash">
+                    
+                </div>
+            </div>
+        </div>
+        <form action="https://formsubmit.co/hdidkovskyi@gmail.com" method="post">
+
+            <div id="contact" class="col-con">
+                <h2>Let's Collaborate</h2>
+                <div class="info">
+                    <div class="name">
+                        <p for="name">First Name*</p>
+                        <input type="text" name="name" required="required">
+                    </div>
+                    <div class="surname">
+                        <p for="name">Second Name*</p>
+                        <input type="text" name="surname" required="required">
+                    </div>
+                    <div class="email">
+                        <p for="name">Email*</p>
+                        <input type="email" name="email" required="required">
+                    </div>
+                </div>
+                <div id="contac" class="leave">
+                    <p for="leave message">Leave me a massage*</p>
+                    <textarea type="text" name="massage" required="required"></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["UI/UX Designer", "UI/UX Designer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500,
+        })
+    </script>
+</body>
+</html>
